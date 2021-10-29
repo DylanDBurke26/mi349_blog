@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    color: black;
+    border-top: 10px solid black;
+    background-color: lavender;
+}
+
+#blog_title{
+    font-size: 2.5em;
+}
+
+header, nav{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    border-spacing: 10px;
+    padding: 5px;
+}
+
+td{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+}
+
+article{
+    border-spacing: 2px;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.post_title{
+    text-decoration: underline;
+}
+
+form{
+    font-size: 1em;
+    padding: 2px;
+}
+
+button{
+    font-style: oblique;
+}
+
+.imgtxt{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 0.85em;
+}
