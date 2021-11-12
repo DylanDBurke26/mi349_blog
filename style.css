@@ -36,6 +36,7 @@ header{
 sticky nav sidebar 
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
 */
+
 nav{
     position: fixed;
     width: 100px;
@@ -113,4 +114,36 @@ div{
 
 #table1{
     text-align: left;
+}
+
+/* Queries part */
+@media (max-width: 400px){
+    p{
+        display: flex;
+    }
+    
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 150px;
+    }
+
+    nav{
+        position: fixed;
+        width: 100px;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        background-color: black;
+    }
+
+    nav a{
+        padding: 5px 5px 5px;
+        font-size: 20px;
+        color: white;
+        display: block;
+    }
 }
